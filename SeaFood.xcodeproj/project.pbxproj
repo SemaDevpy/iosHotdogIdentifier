@@ -13,6 +13,7 @@
 		A22B96E52497835500C668B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22B96E32497835500C668B5 /* Main.storyboard */; };
 		A22B96E72497835800C668B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22B96E62497835800C668B5 /* Assets.xcassets */; };
 		A22B96EA2497835800C668B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22B96E82497835800C668B5 /* LaunchScreen.storyboard */; };
+		A22B96F22497843D00C668B5 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A22B96F12497843D00C668B5 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A22B96E62497835800C668B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A22B96E92497835800C668B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A22B96EB2497835800C668B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A22B96F12497843D00C668B5 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				A22B96E62497835800C668B5 /* Assets.xcassets */,
 				A22B96E82497835800C668B5 /* LaunchScreen.storyboard */,
 				A22B96EB2497835800C668B5 /* Info.plist */,
+				A22B96F12497843D00C668B5 /* Inceptionv3.mlmodel */,
 			);
 			path = SeaFood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A22B96E22497835500C668B5 /* ViewController.swift in Sources */,
+				A22B96F22497843D00C668B5 /* Inceptionv3.mlmodel in Sources */,
 				A22B96DE2497835500C668B5 /* AppDelegate.swift in Sources */,
 				A22B96E02497835500C668B5 /* SceneDelegate.swift in Sources */,
 			);
